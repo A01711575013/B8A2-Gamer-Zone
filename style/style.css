@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar start */
+.navbar {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 13px 10px #dad7d7;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left img {
+    padding-right: 12px;
+    width: 80px;
+    height: 34px;
+}
+
+.gamer-g {
+    color: #ff42a5;
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-right ul li {
+    padding-right: 23px;
+
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+}
+
+.follow-us {
+    background-color: #e6e5e7;
+    ;
+    padding: 7px 12px;
+    border-radius: 6px;
+}
+
+.fa-youtube {
+    padding: 4px;
+    color: red;
+}
+
+/* Navbar End */
+
+
+
+
+
+
+
+
+
+
+/* Media Quary Start From Here Start */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .nav-right ul {
+        flex-direction: column;
+        text-align: center;
+        margin: 23px 1px;
+    }
+
+    .nav-right ul li {
+        margin: 13px 2px;
+    }
+}
+
+
+
+
+/* Media Quary End From Here End */
