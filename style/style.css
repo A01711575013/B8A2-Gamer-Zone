@@ -73,6 +73,7 @@
 
 .play-goad {
     width: 48%;
+    margin-top: 45px;
 }
 
 .play-goad h2 {
@@ -100,6 +101,7 @@
 
 .play-card img {
     width: 320px;
+    background-color: white;
 
 }
 .sign-in, .go-rogue {
@@ -118,10 +120,36 @@
     margin-top: 12px;
     color: white;
 }
-
-
-
 /* 1st play ground end */
+/* 2nd play ground start */
+.play-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.play-left img {
+    width: 650px;
+}
+.play-right {
+    width: 300px;
+    margin-top: 55px;
+    text-align: end;
+}
+.play-right h1 {
+   padding: 12px;
+   background: linear-gradient(to top, #d94cc3, #a254e2,
+   #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.play-right p {
+   padding:11px;
+}
+.play-right h3 {
+   padding:11px;
+}
+
+
+/* 2nd play ground end */
 
 
 
@@ -163,6 +191,24 @@
         margin-top: 25px;
     }
 /* 1st play ground end */
+/* 2st play ground start */
+.play-container-2 {
+    flex-direction: column;
+}
+.play-right {
+    margin-left: 74px;
+    text-align: center;
+}
+.play-left img {
+    width: 450px;
+    margin-top: 74px;
+    padding-right: 22px;
+    
+}
+
+
+
+/* 2st play ground end */
 }
 
 
