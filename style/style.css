@@ -59,6 +59,71 @@
 /* Navbar End */
 
 
+/* 1st play ground start */
+.play-container {
+    background-color: #fdf7fd;
+}
+
+.play-ground {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+
+.play-goad {
+    width: 48%;
+}
+
+.play-goad h2 {
+    padding: 12px 1px;
+}
+
+.play-goad h1 {
+    padding: 12px 1px;
+    /* background-image: linear-gradient(45deg, #d94cc3, #a254e2); */
+
+    background: linear-gradient(to top, #d94cc3, #a254e2,
+            #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.play-goad p {
+    padding: 2px 1px;
+   
+}
+
+/* .play-card {
+    width: 40%;
+} */
+
+.play-card img {
+    width: 320px;
+
+}
+.sign-in, .go-rogue {
+    background-color: #ff42a5;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 23px;
+    margin-top: 12px;
+    color: white;
+}
+.go-rogue {
+    background-color: #4ec5f7;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 23px;
+    margin-top: 12px;
+    color: white;
+}
+
+
+
+/* 1st play ground end */
+
+
 
 
 
@@ -85,6 +150,21 @@
     .nav-right ul li {
         margin: 13px 2px;
     }
+    /* 1st play ground start */
+    .play-ground {
+       
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .play-goad h2 {
+        font-size:20px;
+        margin-top: 25px;
+    }
+   
+
+    /* 1st play ground end */
 }
 
 
