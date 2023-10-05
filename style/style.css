@@ -150,7 +150,7 @@
     .nav-right ul li {
         margin: 13px 2px;
     }
-    /* 1st play ground start */
+/* 1st play ground start */
     .play-ground {
        
         flex-direction: column-reverse;
@@ -162,9 +162,7 @@
         font-size:20px;
         margin-top: 25px;
     }
-   
-
-    /* 1st play ground end */
+/* 1st play ground end */
 }
 
 
