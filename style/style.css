@@ -186,9 +186,48 @@
     width: 980px;
     margin: 0px auto;    
 }
-
 /* Online Games part End */
+/* Horse rider and angel girl section start  */
 
+.horse-section {
+   width: 60%;
+   display: flex;
+   margin: 0 auto;   
+}
+.horse-titles {
+    
+    margin-top: 100px;
+    margin-left: 145px;
+    
+}
+.horse-titles h1 {
+    color: #a254e2;
+}
+.horse-titles h2 {
+   padding: 5px;
+}
+
+.horse-titles p {
+    width: 65%;
+    padding: 5px; 
+    font-size: 12px; 
+}
+.horse-girl {
+    width: 55%;
+}
+.horse-girl img {
+    width: 250px;
+    margin-top: 70px;
+}
+.girl img {
+    width: 120px;
+    position: relative;
+    top: -210px;
+    left: -43px;
+
+}
+
+ /* Horse rider and angel girl section end */
 
 
 
@@ -265,11 +304,16 @@
     
 }
 .online-game-heading h1 {
-    font-size: 24px;
-    
+    font-size: 24px;   
 }
-
 /* Online Games section End */
+/* Horse rider and angel girl section start */
+.horse-section {
+    flex-direction: column;  
+    width: 100%;
+    align-items: center;
+ }
+ /* Horse rider and angel girl section end */
 }
 
 
