@@ -147,9 +147,47 @@
 .play-right h3 {
    padding:11px;
 }
-
-
 /* 2nd play ground end */
+/* Online Games part start */
+.online-game-heading {
+    margin-top: 50px;
+    text-align: center;
+}
+.online-game-heading p {
+    margin-top: 12px;
+    
+}
+.funny-videos {
+    background: linear-gradient(to top, #d94cc3, #a254e2,
+   #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.card-1 img {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 34px;
+}
+.card-1 img:hover {
+   background-color: #4ec5f7;
+   border: 2px solid red;
+   cursor: pointer;
+}
+.card-1 p {
+  font-size: 13px;
+  width: 180px;
+  padding: 5px;
+  margin-left: 45px;
+}
+.online-game-card {
+    display: flex;
+    width: 980px;
+    margin: 0px auto;    
+}
+
+/* Online Games part End */
 
 
 
@@ -190,6 +228,11 @@
         font-size:20px;
         margin-top: 25px;
     }
+    .play-goad p {
+        padding: 12px;
+        text-align: center;
+        margin-left: 0px;
+    }
 /* 1st play ground end */
 /* 2st play ground start */
 .play-container-2 {
@@ -202,13 +245,31 @@
 .play-left img {
     width: 450px;
     margin-top: 74px;
-    padding-right: 22px;
+    padding-right: 22px;    
+}
+/* 2st play ground end */
+/* Online Games section start */
+.online-game-card {
+   flex-direction: column; 
+     
+}
+.card-1 img{
+    margin-left: 110px;
+}
+.card-1 p {
+    margin-left: 100px;
+}
+.online-game-heading p {
+    margin-top: 5px;
+    font-size: 14px;
+    
+}
+.online-game-heading h1 {
+    font-size: 24px;
     
 }
 
-
-
-/* 2st play ground end */
+/* Online Games section End */
 }
 
 
