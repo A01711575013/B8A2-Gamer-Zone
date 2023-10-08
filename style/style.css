@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 /* Navbar start */
@@ -269,6 +271,56 @@
     left: -43px;
 }
  /* Xman and girl section end */
+ /* pink section Start Here */
+
+ .pink-section {
+    display: flex;
+    background-color: #ff42a5;
+    margin-top: -85px;
+    width: 100%;
+    height: 550px;
+ }
+ .careers {
+    font-size: 33px;
+    font-weight: 800;
+ }
+.pink-titles {
+    width: 45%;
+    margin-left: 134px;
+    padding: 34px;
+    color: white;
+    /* margin-top: -111px; */
+}
+.pink-titles p {
+    padding: 23px;
+}
+
+.pink-two-side {
+    display: flex;
+    padding: 23px;
+}
+.pink-left {
+    margin-right: 32px;
+}
+.pink-right {
+    text-align: end;
+}
+.see-positions {
+    padding: 4px 9px;
+    margin-left: 23px;
+    border-radius: 30px;
+    border: none;
+    color: #cf23cf;
+}
+
+ .pink-img {
+    width: 45%;
+    /* margin-top: -111px; */
+ }
+ .pink-img img {
+    width: 100%;
+ }
+ /* pink section End Here */
 
 
 
@@ -374,6 +426,37 @@
     margin-top: 34px;
  }
   /* Horse rider and angel girl section end */
+  /* pink section quary */
+  .pink-two-side {
+    flex-direction: column;
+}
+.pink-section {
+    flex-direction: column;
+    height: 600px;
+ }
+ .see-positions {
+  
+}
+.pink-titles {
+    width: 80%;
+    margin-left: 4px;
+    padding: 3px;
+    color: white;
+    align-items: center;
+    font-size: 10px;
+}
+.pink-right {
+margin-top: -70px;
+}
+.pink-titles p {
+    padding: 23px;
+}
+.pink-img img {
+    width: 300px;
+   margin-left: 70px;
+}
+
+  /* pink section quary */
 }
 
 
