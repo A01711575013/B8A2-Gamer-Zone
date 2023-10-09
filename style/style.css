@@ -315,12 +315,73 @@ font-family: 'Work Sans', sans-serif;
 
  .pink-img {
     width: 45%;
-    /* margin-top: -111px; */
  }
  .pink-img img {
     width: 100%;
  }
  /* pink section End Here */
+ /* All Games section start */
+ .all-game {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 54px;
+ }
+ .action-games {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+ }
+ /* All Games section end */
+ /* footer part */
+ .footer {
+    background-color: steelblue;
+    color: white;
+}
+.footer-heading {
+    text-align: center;
+    /* margin-top: 50px; */
+ }
+.footer-heading img {
+    margin-top: 50px;
+ }
+ .span-g {
+    color: #cf23cf;
+ }
+ .footer-titles-one ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+   
+ }
+ .footer-titles-one ul li {
+    padding: 9px;   
+ }
+ .footer-logo {
+    display: flex;
+    justify-content: center;
+ }
+ .footer-logo img {
+    width: 60px;
+    padding: 9px;
+    border-radius: 45px;
+ }
+ .footer-titles-two ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 9px;
+ }
+ .footer-titles-two ul li {
+    font-size: 14px;
+    padding: 9px;
+ }
+ .footer p {
+    text-align: center;
+    padding-bottom: 50px;
+ }
+ /* footer part */
 
 
 
@@ -384,7 +445,7 @@ font-family: 'Work Sans', sans-serif;
      
 }
 .card-1 img{
-    margin-left: 40px;
+    margin-left: 59px;
     width: 300px;
 }
 .card-1 p {
@@ -457,6 +518,31 @@ margin-top: -70px;
 }
 
   /* pink section quary */
+  /* all game section work start */
+  .all-game {
+      width: 100%;    
+      grid-template-columns: repeat(3, 1fr);
+      padding: 8px;
+      
+    }
+    /* all game section work end */
+  .all-game img {
+    width: 35px;    
+ }
+ /* footer section */
+ .footer-titles-one {
+   font-size: 11px;
+ }
+ .footer-titles-two ul li {
+   font-size: 8px;
+ }
+ .footer p {
+    font-size: 12px;
+ }
+ .footer-logo img {
+    width: 50px;
+ }
+ /* footer section */
 }
 
 
